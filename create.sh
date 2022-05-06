@@ -15,4 +15,4 @@ read answer
 sleep 1
 echo
 echo
-
+#an if statement to utilize $answer and determine next step
