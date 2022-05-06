@@ -14,6 +14,15 @@ sleep 1
 read answer
 sleep 1
 echo
+echo "what is the name of the user you wish to create/"
+echo
+read nu
 echo
 #an if statement to utilize $answer and determine next step
-echo "You chose $"
+if [ $answer = yes ]
+	then 
+		useradd -m $nu 
+	else
+		echo "Thank you for your time"
+fi
+echo
