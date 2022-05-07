@@ -16,4 +16,16 @@ sleep 1
 echo
 echo
 #an if statement to utilize $answer and determine next step
-echo "You chose $"
+echo "You chose $answer"
+echo
+if [ $answer = yes]
+	then
+		echo "What is your name?"
+		echo
+		read $name'
+		useradd -m $name
+		echo "The user $name has been created"
+	else
+		echo "Thank you for your time"
+fi
+
