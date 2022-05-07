@@ -16,4 +16,4 @@ sleep 1
 echo
 echo
 #an if statement to utilize $answer and determine next step
-echo "You chose $"
+echo "You chose $
