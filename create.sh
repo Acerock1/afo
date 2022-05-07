@@ -19,6 +19,7 @@ echo
 read nu
 echo
 #an if statement to utilize $answer and determine next step
+<<<<<<< HEAD
 if [ $answer = yes ]
 	then 
 		useradd -m $nu 
@@ -26,3 +27,18 @@ if [ $answer = yes ]
 		echo "Thank you for your time"
 fi
 echo
+=======
+echo "You chose $answer"
+echo
+if [ $answer = yes]
+	then
+		echo "What is your name?"
+		echo
+		read $name'
+		useradd -m $name
+		echo "The user $name has been created"
+	else
+		echo "Thank you for your time"
+fi
+
+>>>>>>> ef1a3e288645d4edc8b1be52e9d7aa9e1d1149b5
