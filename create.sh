@@ -19,7 +19,6 @@ echo
 read nu
 echo
 #an if statement to utilize $answer and determine next step
-<<<<<<< HEAD
 if [ $answer = yes ]
 	then 
 		useradd -m $nu
