@@ -24,5 +24,7 @@ if [ $answer = yes ]
 		useradd -m $nu
 	       echo "You have created user $nu, please check home directory"	
 	else
-		echo "Thank you for your time"
+		echo "Thank you for your time, or is there something else you want me to do?"
+		echo 
+		echo
 fi
