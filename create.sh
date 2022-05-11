@@ -19,7 +19,7 @@ echo
 read nu
 echo
 #an if statement to utilize $answer and determine next step
-if [ $answer = yes ]
+if [ $answer == yes ]
 	then 
 		useradd -m $nu
 	       echo "You have created user $nu, please check home directory"	
