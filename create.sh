@@ -28,3 +28,4 @@ if [ $answer = yes ]
 		echo 
 		echo
 fi
+echo "do you want to add another user"
